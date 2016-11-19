@@ -14,6 +14,6 @@ So, I was looking into the MODULE folder>>"tripal_analysis_kegg" folder>>folder 
 tripal.analysis_kegg.heir_parser.inc to make the following modifications.
 
 In line 562 of the code: You have a "looking structures" to skip the rest of the current loop. So, you comment that line of code
-"//continue;" Also, you can follow the some procedure in line 591.
+"//continue;" (it was replaced by "return;") Also, you can follow the some procedure in line 591.
 
 V--
